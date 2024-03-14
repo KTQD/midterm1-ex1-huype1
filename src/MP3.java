@@ -8,6 +8,6 @@ public class MP3 extends Item{
 
 
     public void showInfo() {
-        System.out.println("This is a sound data type name: " + name + " Description: " + getDescription() + " Duration: " + duration);
+        System.out.println("This is a sound data type name: " + name + " id " + ID + " price " + price + " Description: " + getDescription() + " Duration: " + duration);
     }
 }
