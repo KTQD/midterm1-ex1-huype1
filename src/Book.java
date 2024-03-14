@@ -13,6 +13,6 @@ public class Book extends Item{
 
     @Override
     void showInfo() {
-        System.out.println("Book name " + name + " author " + author + " id " + id + " genre " + genre + " price $" + price + " Number of pages: " + numberOfPages);
+        System.out.println("Book name " + name + " author " + author + " id " + ID + " genre " + genre + " price $" + price + " Number of pages: " + numberOfPages);
     }
 }
